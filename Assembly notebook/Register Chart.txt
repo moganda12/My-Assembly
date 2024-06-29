@@ -1,0 +1,4 @@
+
+a-d formatting: 8-bit: #l #h 16-bit #x 32-bit a#x 64-bit r#x
+si, di, bp, and sp formatting: 8-bit #l #h 32-bit: e# 64-bit: r#
+r8-15 formatting: 8-bit #b 16-bit #w 32-bit #d
