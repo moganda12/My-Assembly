@@ -1,0 +1,12 @@
+
+run = "./test"
+compile = "nasm main.asm -f elf64 && ld main.o -o test && rm main.o"
+
+[nix]
+channel = "stable-24_05"
+
+[languages]
+[languages.asm]
+pattern = "**/{*.asm}"
+[languages.asm.languageServer]
+start = "asm-lsp"

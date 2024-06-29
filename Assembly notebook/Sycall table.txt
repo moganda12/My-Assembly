@@ -1,0 +1,15 @@
+
+Registers:
+
+ID: RAX
+1: RDI
+2: RSI
+3: RDX
+4: R10
+5: R8
+6: R9
+
+Calls:
+1: Read #filedescriptor, $buffer$, #count
+2: Write #filedescriptor, $buffer$, #count
+60: Exit #errorcode
